@@ -126,41 +126,6 @@ sudo caddy validate --config /etc/caddy/Caddyfile
 
 ---
 
-## 🤯 The Difference
-
-<table>
-<tr>
-<td>
-
-**😩 The Old Way**
-
-```text
-1. Read 5 docs
-2. Copy-paste 20 commands
-3. Debug why something failed
-4. Google obscure error
-5. Finally working (1 hour later)
-```
-
-</td>
-<td>
-
-**🚀 The ServerKit Way**
-
-```bash
-curl ... | bash
-```
-
-```text
-Done. ☕
-```
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🤝 Join the Crew
 
 Got a script that fits the **one-liner philosophy**? Drop a PR.
