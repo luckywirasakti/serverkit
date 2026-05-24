@@ -63,6 +63,20 @@ sudo apt install -y \
 
 success "Dependencies installed"
 
+log "Configuring firewall (UFW)..."
+
+sudo apt install -y ufw
+
+sudo ufw allow 22/tcp comment 'SSH'
+sudo ufw allow 80/tcp comment 'HTTP'
+sudo ufw allow 443/tcp comment 'HTTPS'
+
+echo "y" | sudo ufw enable
+
+sudo ufw reload
+
+success "Firewall configured (SSH, HTTP, HTTPS allowed)"
+
 log "Adding Caddy repository..."
 
 curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | \
