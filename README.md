@@ -138,9 +138,9 @@ Got a script that fits the **one-liner philosophy**? Drop a PR.
 
 ---
 
-## 📄 The Fine Print
+## 📄 License
 
-[MIT](./LICENSE) © [luckywirasakti](https://github.com/luckywirasakti)
+MIT
 
 <div align="center">
 <sub>Built with ❤️ for developers who'd rather ship than configure.</sub>
