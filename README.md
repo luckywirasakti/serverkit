@@ -23,6 +23,32 @@
 
 ---
 
+## ⚡ Quick Start
+
+```bash
+# 1. Clone the arsenal
+git clone https://github.com/luckywirasakti/serverkit.git && cd serverkit
+
+# 2. Make it yours
+chmod +x *.sh
+```
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-00A2D1?style=for-the-badge&logo=caddy&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E9433F?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Systemd](https://img.shields.io/badge/Systemd-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+</div>
+
+---
+
 ## 📦 What's Inside
 
 | Script | Description | One-Liner |
@@ -140,7 +166,9 @@ Got a script that fits the **one-liner philosophy**? Drop a PR.
 
 ## 📄 License
 
-MIT
+> _Open source, open heart. Use it, break it, fix it, share it._
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
 
 <div align="center">
 <sub>Built with ❤️ for developers who'd rather ship than configure.</sub>
